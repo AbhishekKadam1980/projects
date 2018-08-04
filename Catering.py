@@ -268,16 +268,15 @@ while True and count < 2:
             exit()
     else:
         while confirm_choice in confirm_choice_selection_3 or confirm_choice_selection_4:
-            # print("\n OK LETS MOVE TO PAYMENTS")
             print("\nORDER DETAILS ")
             i = 1
             if len(list) == i:
                 print(pizza_size_dump[0] + " Base " + pizza_base_dump[0] + " Pizza " + str(list[0]) + " Toppings ")
-                break
+                exit()
             else:
                 print(pizza_size_dump[0] + " Base " + pizza_base_dump[0] + " Pizza " + str(
                     list[0].title()) + " and " + str(list[1].title()) + " Toppings")
-                break
+                exit()
 
 
 
